@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 8</title>
+    <style>
+        body{
+            background-image: url('imagens/anjos_caindo.jpg');
+            font: normal 27pt Roboto;
+        }
+        mark {background-color:#ffffff; color:#000000;}
+        p { margin-right: 3cm; }
+        p { margin-left: 3cm; }
+        p {margin-top: 2cm; }
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="gula"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align: center;">
+        <p><mark> 
+            Após resolver os dois enigmas, o portão se abre revelando o quarto círculo. Lugar onde são punidos os avaros e os esbanjadores. Nesse círculo repleto de montanhas eles encontram Pluto, o demônio que o guarda. Porém, como o usual, Virgílio usa sua incrível sabedoria para calar e tombar a criatura infernal. Assim seguem pelo círculo, onde veem clérigos, papas e cardeais correndo de um lado para o outro se debatendo e empurrando enormes pesos. Após assistir a tortura, nossos dois poetas se deparam com mais um portão, agora ornamentado com ouro e jóias que fazem referência à fortuna dos que ali estavam.
+        </p></mark>
+        <br>
+        <a href="enigma009.html"><button style="height: 50px; width: 150px; font-size: 35pt; background-color: rgb(46, 44, 44); color: rgb(255, 255, 255);"><strong>&GT; &GT;</strong></button></a> 
+    </div>
+</body>
+</html>
