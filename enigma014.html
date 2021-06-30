@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma 14</title>
+    <style>
+        body{
+            background-image: url('imagens/dante_demonios.png');
+        }
+        mark {background-color:#ffffff; color:#000000;}
+            p { margin-right: 3.5cm; }
+            p { margin-left: 3.5cm; }
+            audio { margin-top: 6cm;}
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="heresia"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align: center;">
+        
+        <audio src="audio_video/enigma_14.mp3" controls ></audio>
+        <br>
+        <br>
+        <br>
+        <a href="int_11_sete.html" target = "_blank"><mark><button style="background-color: rgb(46, 44, 44); color: white; height: 50px; width: 300px; font-size: 30pt; font: Roboto;">Inserir senha</button></mark></a>
+    </div>
+</body>
+</html>
