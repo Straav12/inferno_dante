@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 14</title>
+    <style>
+        body{
+            background-image: url('imagens/lucifer_p.jpg');
+            font: normal 30pt Roboto;
+        }
+        mark{color: black;background-color: white;}
+        p{margin-left: 3cm;}
+        p{margin-right: 3cm;}
+        p{margin-top: 3cm;}
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="senado" || senha =="senador" || senha =="senadores"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align: center;">
+        <p><mark>Após a abertura da nona porta infernal, Dante e Virgílio se vêem no mais profundo abismo. Lá, encontram diversos traidores, inclusive seu rei, o temido Lúcifer. O anjo caído, imenso e com três rostos, encara os dois aventureiros, que por pouco escapam para o purgatório, terminando a parte mais temida da jornada.
+
+        </mark></p>
+        <a href="hist_5.html"><button style="height: 50px; width: 150px; font-size: 35pt; background-color: rgb(46, 44, 44); color: rgb(255, 255, 255);"><strong>&GT; &GT;</strong></button></a>
+    </div>
+</body>
+</html>
