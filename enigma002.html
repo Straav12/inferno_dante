@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acróstico</title>
+    <style>
+        body{
+            background-image: url('imagens/limbo_1000.png');
+            font: normal 30pt Roboto;
+        }
+        mark {background-color:#ffffff; color:#000000;}
+            p { margin-right: 2cm; }
+            p { margin-left: 2cm; }
+            p { margin-top: 2cm;}
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="isaias"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align:center">
+        <p><mark>Içais vossa alma deste buraco profundo!<br>
+            Não há dor maior do que nos lembrarmos de nossa miséria.<br>
+            Foi-se o vosso tempo neste mundo.<br>
+            Embora ainda queiras sair desta cova deletéria<br>
+            remanesça afundado, <br>
+            nos confins mais escuros da terra.<br>
+            Orais por vossa alma<br><br></mark></p>
+    </div>
+    
+    <div style="text-align:center">
+        <a href="int_4.html" target = "_blank"><mark><button style="background-color: rgb(46, 44, 44); color: white; height: 50px; width: 300px; font-size: 30pt; font: Roboto;">Inserir senha</button></mark></a>
+    </div>
+    
+</body>
+</html>

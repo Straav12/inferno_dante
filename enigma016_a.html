@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schriftsteller</title>
+    <style>
+        body{
+            background-image: url('imagens/anjo_red.png');
+            background-color: rgb(0, 0, 0);
+            font: normal 40pt Roboto;
+        }
+        p{margin-top: 3cm;}
+        p{ margin-left: 6cm;}
+        p{ margin-right: 6cm;}
+        mark {background-color:#ffffff; color:#000000;}
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="ateismo" || senha =="ateu"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align: center;">
+        <p><mark>Nur das Grab kann mich von diesen Quälen befreien.</mark></p>
+        <a href="enigma016_b.html" target = "_blank"><mark><button style="background-color: rgb(46, 44, 44); color: white; height: 50px; width: 300px; font-size: 30pt; font: Roboto;">Inserir senha</button></mark></a>
+    </div>    
+</body>
+</html>

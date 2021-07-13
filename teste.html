@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esconde mostrar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Título</h1>
+    <button id="show-or-hide"><div class="container">
+        <img src="imagens/clarice.jpg" alt="">
+    </div></button>
+    <script>
+        var btn = document.querySelector('#show-or-hide');
+        var container = document.querySelector('.container');
+
+        btn.addEventListener('click', function() {
+
+            if(container.style.display === 'block') {
+                container.style.display = 'none';
+            } else {
+                container.style.display = 'block';
+            }
+
+        });
+    </script>
+</body>
+</html>
