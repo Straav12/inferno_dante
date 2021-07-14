@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogador</title>
+    <style>
+        body{
+            font: normal 25pt Roboto;
+            color: white;
+            background-color: black;
+        }
+        p { margin-right: 3cm; }
+        p { margin-left: 3cm; }
+        p {margin-top: 2cm; }
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="werther effekt"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align: center;">
+        <p>Após os últimos dois riscos, a sala ficou mais vermelha do que nunca, totalmente iluminada pela sombria luz escarlate. Além disso, o líquido havia passado a jorrar e formou uma poça no chão, e você percebe uma coisa: se não sair de lá logo, será afogado pelo sangue das paredes. Você olha para suas mãos e vê que elas já estão sujas com o líquido escarlate. Assustado, você corre se vira para o computador, porém, um som misterioso surge:
+        </p>
+        <br>
+        <audio src="audio_video/WhatsApp-Audio-2021-07-12-at-20.11.01.mp3" controls></audio>
+        <br>
+        <a href="int_12_oito.html"><button style="height: 50px; width: 150px; font-size: 35pt; background-color: rgb(46, 44, 44); color: rgb(255, 255, 255);"><strong>&GT; &GT;</strong></button></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogador</title>
+    <style>
+        body{
+            font: normal 25pt Roboto;
+            color: white;
+            background-color: black;
+        }
+        p { margin-right: 3cm; }
+        p { margin-left: 3cm; }
+        p {margin-top: 2cm; }
+    </style>
+</head>
+<body>
+    <script>
+        senha = prompt("digite sua senha:","");
+        if (senha =="monstro de florença"||senha =="monstro de florenca"){
+            document.getElementById('pagina').style.display = 'block';
+        }else if(senha ==""){
+            alert("campo obrigatorio");window.location = "senha_errada.html" 
+        }else if(senha =="sair"){
+            alert("cancelado");window.location = "https://www.codigofonte.com.br"
+        }else{
+            alert("senha errada");window.location = "senha_errada.html"
+        }
+    </script>
+    <div style="text-align: center;">
+        <p>Já sabendo o que vai acontecer, você se vira esperando a mais duas linhas vermelhas. Porém, enquanto a parede se rasga, um dos riscos cruza os outros quatro, já o outro, aparece normalmente ao lado. Além disso, você vê que o vermelho está escorrendo como sangue, espalhando a luz escarlate pela sala.</p>
+        <br>
+        <a href="int_10_seis.html"><button style="height: 50px; width: 150px; font-size: 35pt; background-color: rgb(46, 44, 44); color: rgb(255, 255, 255);"><strong>&GT; &GT;</strong></button></a>
+    </div>
+   
+</body>
+</html>
